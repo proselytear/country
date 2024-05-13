@@ -167,5 +167,5 @@ curl --location 'localhost:9200/api/v1/countries/cc2/PL'
 
 ### Дополнительные ссылки
 
-* [GitHub repository](https://github.com/proselytear/country/country-api)
+* [GitHub repository](https://github.com/proselytear/country)
 * [Proselyte Community TG](https://t.me/pse_club)

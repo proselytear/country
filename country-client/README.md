@@ -20,6 +20,6 @@
 http://localhost:3000/
 ```
 ### Дополнительные ссылки
-* [GitHub repository](https://github.com/proselytear/country/country-client)
+* [GitHub repository](https://github.com/proselytear/country)
 * [Proselyte Community TG](https://t.me/pse_club)
 
