@@ -1,0 +1,26 @@
+version: "3"
+services:
+  db:
+    image: mongo:latest
+    hostname: mongo
+    ports:
+      - "27017:27017"
+  api:
+    build: ./country-api
+    ports:
+      - "9200:9200"
+    environment:
+      port: "9200"
+      datasource.url: "jdbc:postgresql://host.docker.internal:5432/countries"
+      datasource.user: "postgres"
+      datasource.password: "postgres"
+      mongo.host: "host.docker.internal"
+      mongo.port: "27017"
+      mongo.database: "mongo"
+    depends_on: [db]
+  client:
+    build: ./country-client
+    ports:
+      - "3000:3000"
+    depends_on: [api]
+

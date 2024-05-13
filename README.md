@@ -5,6 +5,11 @@
 - country-client
 * Каждый из подпроектов имеет собственный README.md файл с подробными инструкциями.
 
+# Для быстрого старта проекта выполните команду:
+```
+docker-compose up
+```
+
 
 ### Дополнительные ссылки
 * [GitHub repository](https://github.com/proselytear/country)
